@@ -222,6 +222,7 @@ footer.footer {
   display: flex;
   column-gap: 30px;
   margin-top: 40px;
+  padding: 0;
 }
 
 .footerWidget .social ul li a {

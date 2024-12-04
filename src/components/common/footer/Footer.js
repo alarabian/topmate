@@ -51,6 +51,9 @@ const Footer = () => {
             <div className="col-lg-4">
               <div className="footerWidget">
                 <ul>
+                <li>
+                    <Link href="/">Home</Link>
+                  </li>
                   <li>
                     <Link href="/">About</Link>
                   </li>
@@ -75,6 +78,7 @@ const Footer = () => {
                   <li>
                     <Link href="/">Carousel Maker</Link>
                   </li>
+                  
                 </ul>
               </div>
             </div>
