@@ -1,0 +1,939 @@
+@import url('https://fonts.googleapis.com/css2?family=Familjen+Grotesk:ital,wght@0,400..700;1,400..700&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Familjen Grotesk", sans-serif !important;
+}
+
+body {
+  background-color: #efeff0 !important;
+}
+
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sectionSpace {
+  padding: 50px 0;
+}
+
+.loadMore {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.loadMoreButton {
+  background: #303030;
+  color: #fff;
+  border: 0;
+  padding: 10px 20px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.bgCover {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+a,
+span {
+  display: inline-block;
+  color: #303030;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #131111;
+}
+
+a {
+  color: #303030;
+  text-decoration: none;
+}
+
+p {
+  margin-bottom: 7px;
+  font-size: 15px;
+}
+
+.sectionTitle {
+  margin-bottom: 30px;
+}
+
+.sectionTitle h2 {
+  font-weight: 200;
+  text-transform: uppercase;
+  margin: 0;
+  font-size: 30px;
+  color: #ec5b24;
+}
+
+.boxCard {
+  padding: 20px;
+  margin-bottom: 20px;
+  background: #fff;
+  border: 1px solid #c7c8c9;
+}
+
+.bgGray {
+  background-color: #f7f7f7;
+}
+
+/* width */
+body::-webkit-scrollbar {
+  width: 5px;
+}
+
+/*Track */
+body::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+body::-webkit-scrollbar-thumb {
+  background: #07152d;
+}
+
+/* Handle on hover */
+body::-webkit-scrollbar-thumb:hover {
+  background: #ec5b24;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+}
+
+.pageCoverSec {
+  background: #f7f7f7;
+  padding: 20px 0;
+  border-bottom: 2px solid #eaeaea;
+}
+
+.pageCoverSec h2 {
+  margin: 0;
+  color: #303030;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+
+/* Header css start */
+.headerBody {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+header.header {
+  background: #fff;
+}
+
+.headerBody .search {
+  width: 50%;
+}
+
+.mainLogo a {
+  font-size: 30px;
+  color: #ec5b24;
+}
+
+.mainLogo a span {
+  font-weight: bold;
+  padding-right: 5px;
+}
+
+.headerBody .search input {
+  height: 50px;
+  border: 1px solid #ccc;
+}
+
+.loginPart {
+  display: flex;
+  column-gap: 10px;
+}
+
+.loginPart .loginItem a {
+  padding: 10px 16px;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.loginPart .loginItem .login {
+  color: #131111;
+}
+
+.loginPart .loginItem .expert {
+  background: #131111;
+  border-color: #131111;
+  color: #fff;
+}
+
+/* Header css End */
+/* Footer css Start */
+footer.footer {
+  background: #131111;
+}
+
+.footerWidget>ul {
+  column-count: 2;
+}
+
+.footerWidget>ul li a {
+  color: #fff;
+  line-height: 40px;
+}
+
+.footerWidget .social ul {
+  display: flex;
+  column-gap: 30px;
+  margin-top: 40px;
+}
+
+.footerWidget .social ul li a {
+  width: 40px;
+  height: 40px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: #131111;
+  font-size: 26px;
+}
+
+.copyright p {
+  color: #fff;
+  margin: 0;
+}
+
+.copyright {
+  margin-top: 80px;
+}
+
+/* Footer css End */
+
+
+/* Home css Start */
+.findPage ul {
+  display: flex;
+  justify-content: center;
+  column-gap: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+.findPage ul li a {
+  padding: 10px 20px;
+  background: #131111;
+  color: #fff;
+  border-radius: 30px;
+}
+
+.findPage ul li a.active {
+  background: #ec5b24;
+}
+
+.HomeTitle {
+  text-align: center;
+  margin: 20px 0 50px;
+}
+
+.HomeTitle h1 {
+  font-weight: bold;
+  font-size: 60px;
+}
+
+.HomeTitle a {
+  background: #131111;
+  padding: 16px 20px;
+  color: #fff;
+  font-size: 20px;
+  border-radius: 5px;
+  text-transform: capitalize;
+}
+
+.peopleFilter {
+  background-color: #fff;
+  padding: 10px;
+}
+
+.peopleFilterCard {
+  border-right: 1px solid #ccc;
+
+}
+
+.peopleFilterCard>ul {
+  display: flex;
+  column-gap: 10px;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+.allPeopleTab ul {
+  display: flex;
+  align-items: center;
+  column-gap: 5px;
+  padding: 0;
+  margin: 0;
+}
+
+.allPeopleTab>ul>li,
+.allPeopleTab button {
+  border: 1px solid #ccc;
+  padding: 4px 13px;
+  text-transform: capitalize;
+  font-size: 14px;
+  white-space: nowrap;
+  border-radius: 30px;
+  font-weight: bold;
+  transition: .4s ease-in-out;
+  cursor: pointer;
+}
+
+
+.allPeopleTab>ul>li.active {
+  background-color: #131111;
+  border-color: #131111;
+  color: #fff;
+}
+
+.allPeopleTab>ul>li:hover {
+  background-color: #131111;
+  border-color: #131111;
+  color: #fff;
+}
+
+.peopleFilterCard>ul>li {
+  background: #131111;
+  padding: 7px 20px;
+  border-radius: 30px;
+
+}
+
+.peopleFilterCard>ul li {
+  display: flex;
+  column-gap: 5px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.peopleFilterCard>ul li span {
+  color: #fff;
+  font-size: 14px;
+}
+
+.peopleFilterCard>ul li button {
+  background-color: #131111;
+  border: 0;
+  color: #fff;
+  font-size: 14px;
+}
+
+.interviewCard {
+  display: flex;
+  column-gap: 15px;
+}
+
+.interviewCardItem {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+.interviewCardItem .content h6 {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.interviewCardItem .content p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.interviewCardItem .content {
+  margin-top: 10px;
+}
+
+.interviewSec .title {
+  margin-bottom: 20px;
+}
+
+.interviewSec .title h3 a {
+  text-decoration: underline !important;
+  padding-left: 10px;
+  color: #f57c00;
+}
+
+.aiSearchCard {
+  text-align: center;
+}
+
+.aiSearchCard h2 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.aiSearchCard .form,
+.searchArea {
+  width: 70%;
+  margin: auto;
+  position: relative;
+}
+
+.searchArea {
+  width: 90%;
+  margin: 0;
+}
+
+.aiSearchCard .form input.form-control,
+.searchArea input.form-control {
+  height: 60px;
+}
+
+.aiSearchCard .form button,
+.searchArea button {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  padding: 0 20px;
+  background: #131111;
+  color: #fff;
+  border: 1px solid #131111;
+}
+
+.searchCards {
+  display: flex;
+  gap: 20px;
+  margin-top: 40px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.searchItem {
+  padding: 20px;
+  background: #dbdbdb;
+}
+
+.searchItem span {
+  background: #c5c3c3;
+  padding: 2px 10px;
+  margin-bottom: 10px;
+  color: #131111;
+  text-transform: capitalize;
+  display: inline-flex;
+  align-items: center;
+  column-gap: 5px;
+  font-size: 13px;
+}
+
+.searchItem p {
+  margin: 0;
+}
+
+.filterModal .modal-body {
+  background: #efeff0;
+}
+
+.modalBody ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin: 0;
+  padding: 0;
+}
+
+button#v-pills-home-tab {
+  color: #131111;
+  text-align: left;
+}
+
+.modalBody ul li {
+  padding: 20px 10px;
+  background: #e6e6e7;
+  width: 48%;
+}
+
+/* Home css End */
+
+/* Teacher Detail css Start */
+.fullIntro {
+  border-left: 1px solid #efeff0;
+  padding-left: 30px;
+}
+
+.teacherIntro .figure img {
+  border-radius: 50%;
+}
+
+.teacherIntro .content {
+  margin-top: 40px;
+}
+
+.teacherIntro .content h3 {
+  font-size: 30px;
+  color: #f7f7f7;
+}
+
+.teacherIntro .content p {
+  font-size: 20px;
+  color: #fff;
+
+}
+
+.testimonial .item p {
+  font-size: 14px;
+}
+
+.callMeetingItem {
+  padding: 15px;
+  background-color: #fff;
+  width: 48%;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.callMeetingItem>span {
+  background: #2396c2;
+  padding: 2px 10px;
+  font-size: 13px;
+  color: #fff;
+  border-radius: 30px;
+}
+
+.callMeetingItem h5 {
+  margin-top: 30px;
+}
+
+.callMeetingItem .timeIntro {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background: #efeff0;
+  border-radius: 5px;
+}
+
+.timeIntro .time {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.timeIntro .time .text strong {
+  display: block;
+  line-height: 20px;
+}
+
+.timeIntro .time .text span {
+  font-size: 13px;
+}
+
+.timeIntro .time .icon svg {
+  font-size: 30px;
+}
+
+.timeIntro .price {
+  padding: 6px 10px;
+  display: flex;
+  align-items: center;
+  column-gap: 5px;
+  background: #131111;
+  color: #fff;
+  border-radius: 30px;
+}
+
+.timeIntro .price span {
+  color: #fff;
+}
+
+.timeIntro .price svg {
+  font-size: 22px;
+}
+
+.callMeetingCard {
+  display: flex;
+  column-gap: 20px;
+  flex-wrap: wrap;
+}
+
+.tabArea {
+  margin: 20px 0;
+}
+
+.nav.nav-tabs.allPeopleTab {
+  border: 0;
+}
+
+.allPeopleTab button {
+  font-size: 15px;
+  background-color: #fff;
+  font-weight: normal;
+  margin-right: 10px;
+  padding: 8px 30px;
+}
+
+.allPeopleTab button.active {
+  background-color: #131111;
+  border-color: #131111;
+  color: #fff;
+}
+
+.callMeetingItem .figure .rating {
+  display: flex;
+}
+
+.callMeetingItem .figure .rating {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.callMeetingItem .figure .rating span {
+  background: #131111;
+  padding: 2px 10px;
+  font-size: 13px;
+  color: #fff;
+  border-radius: 30px;
+}
+
+.rateItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.rateItem .icon,
+.rateItem ul li {
+  padding: 40px;
+  background: #fff;
+  border-radius: 5px;
+}
+
+.rateItem .icon svg {
+  font-size: 80px;
+}
+
+.rateItem ul {
+  display: flex;
+  column-gap: 50px;
+  margin: 0;
+  padding: 0;
+}
+
+.rateItem ul li strong {
+  display: block;
+  font-size: 40px;
+}
+
+.rateItem ul li {
+  text-align: center;
+}
+
+.rateItem .icon {
+  width: 37%;
+  text-align: center;
+}
+
+.ratingFeed .title {
+  margin-bottom: 20px;
+}
+
+
+
+.testiCard {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 30px 0;
+}
+
+.testiCard .tetiItem {
+  width: 48%;
+  padding: 15px;
+  background: #ffffff;
+  border-radius: 5px;
+}
+
+.tetiItem p.desc {
+  margin: 15px 0 40px;
+}
+
+.tetiItem strong {
+  display: block;
+}
+
+.tetiItem span {
+  font-size: 14px;
+}
+
+.tetiItem .rating svg {
+  color: #2198be;
+}
+
+.tetiItem .rating span {
+  font-weight: bold;
+}
+
+.teacherIntro {
+  padding: 50px 30px;
+  background-color: brown;
+  height: 100vh;
+  text-align: center;
+  position: sticky;
+  top: 50px;
+}
+
+.extraButton {
+  display: flex;
+  justify-content: center;
+}
+
+.extraButton button {
+  border: 1px solid #ccc;
+  background: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.aboutMe .social ul {
+  padding: 0;
+  display: flex;
+  column-gap: 30px;
+  margin: 30px 0 21px;
+}
+
+.aboutMe .social ul li a {
+  width: 60px;
+  height: 60px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  color: #131111;
+  font-size: 26px;
+}
+
+.aboutMe .list ul {
+  padding: 0;
+  margin: 0;
+}
+
+/* Teacher Detail css End */
+
+
+/* login page CSS Start */
+.loginCard {
+  /* background-color: #fff; */
+  padding: 30px;
+}
+
+.loginCard .socialConnect .email a {
+  margin-bottom: 15px;
+}
+
+.signBook form {
+  border: 1px solid #adadad;
+}
+
+
+.signBook form input.form-control,
+.signBook form .form-select {
+  border: 0;
+  border-radius: 0;
+  height: 50px;
+}
+
+.signBook form input.form-control {
+  border-top: 1px solid #adadad;
+}
+
+.privacy span {
+  font-size: 14px;
+  padding: 5px 0 10px;
+}
+
+.privacy span a {
+  text-decoration: underline !important;
+  color: #ec5b24;
+}
+
+.continueButton {
+  background-color: #ec5b24;
+  border: 0;
+  width: 100%;
+  padding: 7px 20px;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 18px;
+}
+
+.divSee {
+  position: relative;
+  margin: 10px 0;
+  text-align: center;
+}
+
+.divSee:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 1px;
+  background: #e1e1e1;
+  bottom: 0;
+  margin: auto;
+}
+
+.divSee a {
+  background: #fff;
+  padding: 0 10px;
+  color: #131111;
+  text-decoration: underline !important;
+  position: relative;
+  z-index: 1;
+  font-weight: 500;
+  font-size: 13px;
+}
+
+.socialConnect ul {
+  display: flex;
+  padding: 0;
+  justify-content: space-between;
+  column-gap: 20px;
+}
+
+.socialConnect ul li {
+  width: 100%;
+  text-align: center;
+  border: 1px solid #e1e1e1;
+  border-radius: 10px;
+  padding: 15px 0;
+}
+
+.socialConnect ul li svg {
+  font-size: 20px;
+}
+
+.socialConnect .email {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 10px;
+}
+
+.socialConnect .email a {
+  text-align: center;
+  background-color: #fbfbfb;
+  border: 1px solid #f5f5f5;
+  border-radius: 10px;
+  padding: 15px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 10px;
+  color: #303030;
+  font-size: 14px;
+}
+
+.loginFigure img {
+  margin-top: -40px;
+}
+
+/* login page CSS End */
+
+/* expert page CSS Start */
+.expertCards {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.expertItem {
+  width: 23%;
+  background: #dedee3;
+  padding: 20px;
+}
+
+.expertItem .img img {
+  border: 4px solid #fff;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.expertItem .content h5,
+.expertItem .content p {
+  margin: 0;
+}
+
+.expertSecTitle h3 {
+  font-size: 66px;
+}
+.expertSecTitle h3 span{
+  color: #ec5b24;
+}
+.expertSecTitle p {
+  font-size: 20px;
+  margin: 30px 0;
+}
+
+.expertSecTitle a {
+  background: #303030;
+  border: 2px solid #303030;
+  padding: 8px 15px;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+.earnCard {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.expertTitle h2{
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+
+/* expert page CSS End */
